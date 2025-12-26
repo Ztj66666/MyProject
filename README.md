@@ -1,4 +1,3 @@
-# AI and NLP Projects
 This repository contains various scripts and projects focused on Natural Language Processing and Large Language Model (LLM) orchestration.
 
 ## Directories
