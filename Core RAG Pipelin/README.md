@@ -7,7 +7,7 @@
 
 ---
 
-## 🏗️ 系统架构 (Architecture)
+## 系统架构 (Architecture)
 
 本系统采用有状态图结构编排不同职能的智能体节点：
 
@@ -25,7 +25,7 @@ graph TD
 
 ---
 
-## 🌟 核心特性 (Key Features)
+##  核心特性 (Key Features)
 
 * **多智能体协同机制**：
 * **Researcher**: 负责从 FAISS 向量库中检索相关技术文档。
@@ -43,7 +43,7 @@ graph TD
 
 ---
 
-## 🛠️ 技术栈 (Tech Stack)
+##  技术栈 (Tech Stack)
 
 * **编排框架**: LangGraph (Stateful Framework)
 * **大语言模型**: GPT-4o / GPT-4o-mini (via LangChain LCEL)
@@ -53,7 +53,7 @@ graph TD
 
 ---
 
-## 🚀 快速启动 (Quick Start)
+##  快速启动 (Quick Start)
 
 ### 1. 安装环境
 
