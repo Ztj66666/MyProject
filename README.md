@@ -5,15 +5,18 @@ This repository contains various scripts and projects focused on Natural Languag
 ### NLP
 This folder consists of implementations and exercises covering fundamental NLP algorithms. It includes work on tasks such as text classification, Named Entity Recognition (NER), and semantic similarity calculations. The scripts focus on utilizing PyTorch and Hugging Face Transformers.
 
+### Core RAG Pipeline
+An advanced RAG system built with LangGraph for AWS technical consultancy. It features a self-reflective agentic workflow that evaluates retrieval quality and automatically rewrites queries to ensure high-accuracy responses and minimize hallucinations through a closed-loop feedback mechanism.
+
 ### ctrival_assignment_
 This directory contains an ongoing project for an AI-powered travel assistant. The system uses Retrieval-Augmented Generation (RAG) to provide travel recommendations and itinerary planning. It currently includes a retrieval pipeline built with FastAPI.
 
 ### langchain_demo
-A collection of scripts for practicing LangChain and LangGraph workflows. These files explore agentic logic, including tool invocation, task planning, and state management within conversation chains.
+A collection of scripts for practicing LangChain and LangGraph workflows. These files explore agentic logic, including tool invocation, task planning, and state management within conversation chains to build robust multi-agent systems.
 
 ## Technical Environment
 The projects in this repository utilize the following technical stack:
-**Languages**: Python.
-**Frameworks**: LangChain, PyTorch, and FastAPI.
-**Data**: Vector search and management using FAISS and Pinecone.
-**Models**: Integration with OpenAI and Transformers-based models.
+- **Languages**: Python.
+- **Frameworks**: LangChain, LangGraph, PyTorch, and FastAPI.
+- **Data**: Vector search and management using FAISS and Pinecone.
+- **Models**: Integration with OpenAI (GPT-4o) and Transformers-based models.
