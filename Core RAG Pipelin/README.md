@@ -1,6 +1,6 @@
-为了确保 Markdown 代码在对话框中以源码形式呈现而不被解析，我已将其放入代码块中。你可以直接点击右上角的复制按钮。
 
-```markdown
+
+
 # Agentic RAG Pipeline with LangGraph
 
 这是一个基于 **LangGraph** 构建的有状态多智能体 RAG 系统。系统通过“自我反思”机制（Self-Reflective Loop），在检索质量不达标时自动触发查询重写，从而确保复杂技术咨询场景下的回答准确性。
@@ -11,7 +11,6 @@
 
 本系统采用有状态图结构编排不同职能的智能体节点：
 
-```mermaid
 graph TD
     User([用户提问]) --> Researcher[Researcher: 向量检索]
     Researcher --> Analyst{Analyst: 质量评估}
@@ -22,7 +21,7 @@ graph TD
     Analyst -- "达到重试上限" --> Fail[提示并终止]
     Fail --> End
 
-```
+
 
 ---
 
